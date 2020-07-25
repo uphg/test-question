@@ -108,7 +108,7 @@ function randomArray(array, number) {
 //     return div.firstElementChild
 // }
 
-
+// 通过数据名称判断localStorage中是否存在某个数据
 function asserLocal(name){
     return localStorage.hasOwnProperty(name)
 }
